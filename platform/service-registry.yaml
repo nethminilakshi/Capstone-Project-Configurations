@@ -1,3 +1,7 @@
 server:
   port: 9001
 
+eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
